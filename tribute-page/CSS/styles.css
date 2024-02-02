@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, figure, figcaption, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Main content styles */
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title styles */
+#title {
+    margin-bottom: 20px;
+}
+
+/* Image container styles */
+#img-div {
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Image caption styles */
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Tribute info styles */
+#tribute-info {
+    margin-bottom: 20px;
+}
+
+/* Tribute link styles */
+#tribute-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
